@@ -1,0 +1,896 @@
+body{
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+}
+@media only screen and (min-width: 992px)
+ {
+    .material-icons{
+        color: red;
+        position: absolute;
+
+    }
+    #textA{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5vh;
+        margin-left: 0px;
+        font-weight: bolder;
+
+    }
+    #textB{
+        font-weight: bold;
+        font-size: 4vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h2{
+        font-size: large;
+        font-family: 'Nunito', sans-serif;
+    }
+    #butFor{
+        background-color: red;
+        color: red;
+    }
+    #pT{
+        color: red;
+        position: relative;
+        right: 40px;
+    }
+    label{
+        color:black ;
+        opacity: 60%;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .crossed{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        text-decoration: line-through;
+    }
+    .grid-container{
+        margin-top: 15vh;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+    #indexIcon{
+        position: relative;
+        right: 10px;
+    }
+    .box{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(253, 11, 11);
+        /* box-sizing: border-box; */
+        padding: 2%;
+        font-size: 130%;
+        border: 2px solid rgb(241, 130, 130);
+        width: 12vw;
+        height: 36vh;
+        border-radius: 5%;
+        box-shadow: 1vw 1vw 1vw rgb(80, 79, 79);
+    }
+    #forBlur{
+        filter: blur(6px);
+        z-index: 2;
+    }
+    #addList{
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid red;
+        width: 27vw;
+        height: 10vw;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+        line-height: 2vh;
+        color: red;
+        font-size: larger;        
+        box-shadow: 1vh 1vh 1vh black;
+        font-weight: bolder
+    }
+    #A{
+        z-index: 5;
+        position: absolute;
+        left: 37%;
+        top: 40%;
+        background-color: white;
+    }
+    #but{
+        color: white;
+        background-color: red;
+    }
+    #nav{
+        display: inline;
+    }
+    #tripToParis{
+        display: inline-block;
+        
+    }
+    #withIcon{
+        display: inline-block;
+    }
+    #bodyO{
+
+        border: none;
+    }
+    .parisHr{
+        position: relative;
+        top: 70px;
+        margin: 0px;
+        height: 2px;
+        width: 100px;
+        background-color: black;
+        opacity: 50%;
+        
+    }
+    #parisHead{
+        color: black
+        font-family: 'Nunito', sans-serif;
+        font-size: 54px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 3px;
+    }
+    #parisBoxM{
+        position: absolute;
+        text-align: center;
+        align-content: center;
+        height: 300px;
+        width: 26%;
+        border: rgb(253, 124, 124) 3px solid;
+        border-radius: 12px;
+        box-shadow: 6px 6px 6px rgb(112, 108, 108);
+        line-height: 40px;
+    }
+    #tripToParis{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #withIcon{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #rightToArrow{
+        color: black;
+        opacity: 50%;
+    }
+    #back{
+        color: red;
+        position: absolute;
+        right: 52%;
+        /* margin-bottom: 30px; */
+    }
+    .midHead{
+        padding-left: 15px;
+        color: rgb(248, 47, 47);
+        font-family: 'Nunito', sans-serif;
+    }
+    #tripIcon{
+        position: relative;
+        top: 40px;
+        left: 120px;
+        
+    }
+    #tripHr{
+        margin: 0px;
+        position: absolute;
+        left: 85px;
+    }
+    #mid{
+        height: 1000px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .threeHr{
+        padding-left: 20px;
+        position: relative;
+        left: 20px;
+        width: 70%;
+    }
+    
+
+}
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    #textA{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6vh;
+        margin-left: 0px;
+        font-weight: bold;
+
+    }
+    #indexIcon{
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+    }
+    #textB{
+        font-weight: bold;
+        font-size: 5vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #blank{
+        display: none;
+    }
+    .grid-container{
+        margin-top: 5vh;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        height: 100vh;
+    }
+    .box{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(253, 11, 11);
+        box-sizing: border-box;
+        padding: 2%;
+        border: 2px solid rgb(230, 59, 59);
+        width: 20vw;
+        height: 22vh;
+        border-radius: 5%;
+        box-shadow: 1vw 1vw 1vw rgb(80, 79, 79);
+    }
+    h2{
+        font-size: medium;
+        font-weight: bolder;
+        color: red;
+    }
+    .crossed{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: rgb(255, 0, 0);
+        text-decoration: line-through;
+    }
+    label{
+        font-weight: bold;
+        color: rgb(248, 27, 27);
+    }
+    #forBlur{
+        filter: blur(6px);
+    }
+    #addList{
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid red;
+        width: 27vw;
+        height: 15vw;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+        line-height: 1vh;
+        color: red;
+        font-size: larger;        
+        box-shadow: 1vh 1vh 1vh black;
+        box-sizing: border-box;
+        font-weight: bolder;
+    }
+    #A{
+        z-index: 5;
+        position: absolute;
+        left: 37%;
+        top: 40%;
+        background-color: white;
+    }
+    #but{
+        color: white;
+        background-color: red;
+    }
+    #tripToParis{
+        display: inline-block;
+    }
+    #withIcon{
+        display: inline-block;
+    }
+    #bodyO{
+
+        border: none;
+    }
+    .parisHr{
+        position: relative;
+        top: 70px;
+        margin: 0px;
+        height: 2px;
+        width: 100px;
+        background-color: black;
+        opacity: 50%;
+        
+    }
+    #parisHead{
+        color: black
+        font-family: 'Nunito', sans-serif;
+        font-size: 54px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 3px;
+    }
+    #parisBoxM{
+        position: absolute;
+        text-align: center;
+        align-content: center;
+        height: 300px;
+        width: 26%;
+        border: rgb(253, 124, 124) 3px solid;
+        border-radius: 12px;
+        box-shadow: 6px 6px 6px rgb(112, 108, 108);
+        line-height: 40px;
+    }
+    #tripToParis{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #withIcon{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #rightToArrow{
+        color: black;
+        opacity: 50%;
+    }
+    #back{
+        color: red;
+        position: absolute;
+        right: 52%;
+        margin-bottom: 30px;
+    }
+    .midHead{
+        padding-left: 15px;
+        color: rgb(248, 47, 47);
+        font-family: 'Nunito', sans-serif;
+    }
+    #tripIcon{
+        position: relative;
+        top: 40px;
+        left: 80px;
+        
+    }
+    #tripHr{
+        margin: 0px;
+        position: absolute;
+        left: 85px;
+    }
+    #mid{
+        margin-top: 15px;
+        height: 1000px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .material-icons{
+        color: red;
+        position: absolute;
+        padding-top: 25px;
+    }
+    .threeHr{
+        padding-left: 20px;
+        position: relative;
+        left: 20px;
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width:767px) {
+    #textA{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6vh;
+        margin-left: 0px;
+        font-weight: bolder;
+        margin-top: 2vh;
+
+    }
+    #indexIcon{
+        position: relative;
+        left: 37%;
+    }
+    #textB{
+        font-weight: bolder;
+        font-size: 5vh;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .grid-container{
+        display: grid;
+        gap: 5vh;
+        margin: 2vh;
+    }
+    .box{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(253, 11, 11);
+        box-sizing: border-box;
+        padding: 2%;
+        border: 2px solid rgb(230, 59, 59);
+        border-radius: 3%;
+        box-shadow: 1vw 1vw 1vw rgb(80, 79, 79);
+    }
+    h2{
+        font-weight: bolder;
+    }
+    .crossed{
+        text-decoration: line-through;
+        color: red;
+        font-size: 3vh;
+        font-weight: bolder;
+    }
+    label{
+        font-weight: bold;
+    }
+    #forBlur{
+        filter: blur(6px);
+    }
+    #addList{
+        font-weight: bolder;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid red;
+        width: 70vw;
+        height: 35vw;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+        line-height: 9vw;
+        color: red;
+        font-size: x-large;        
+        box-shadow: 1vh 1vh 1vh black;
+        box-sizing: border-box;
+    }
+    #A{
+        z-index: 5;
+        position: absolute;
+        margin: 8vh;
+        top: 40%;
+        background-color: white;
+    }
+    #but{
+        color: white;
+        background-color: red;
+        width: 20%;
+        font-size: xx-small;
+        border-radius: 25%;
+    }
+    input{
+        width: 70%;
+    }
+    #tripToParis{
+        display: inline-block;
+    }
+    #withIcon{
+        display: inline-block;
+    }
+    #bodyO{
+
+        border: none;
+    }
+    .parisHr{
+        display: none;
+        
+    }
+    #parisHead{
+        color: black
+        font-family: 'Nunito', sans-serif;
+        font-size: 54px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 3px;
+    }
+    #parisBoxM{
+        position: absolute;
+        text-align: center;
+        align-content: center;
+        height: 70%;
+        width: 60%;
+        border: rgb(253, 124, 124) 3px solid;
+        border-radius: 12px;
+        box-shadow: 6px 6px 6px rgb(112, 108, 108);
+        line-height: 80px;
+        font-size: 18px;
+    }
+    #tripToParis{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #withIcon{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #rightToArrow{
+        display: none;
+    }
+    #back{
+        color: red;
+        position: absolute;
+        left: 5%;
+        top: 6%;
+        margin-bottom: 30px;
+    }
+    .midHead{
+        padding-left: 15px;
+        color: rgb(248, 47, 47);
+        font-family: 'Nunito', sans-serif;
+        font-size: 50px;
+    }
+    #tripIcon{
+        position: relative;
+        top: 40px;
+        left: 80px;
+        
+    }
+    #tripHr{
+        margin: 0px;
+        position: absolute;
+        left: 85px;
+    }
+    #mid{
+        margin-top: 15px;
+        height: 1000px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .material-icons{
+        color: red;
+        position: absolute;
+        padding-top: 25px;
+    }
+    #pT{
+        position: relative;
+        left: 50px;
+    }
+    .threeHr{
+        padding-left: 20px;
+        position: relative;
+        left: 20px;
+        width: 70%;
+    }
+
+}
+@media only screen and (max-width: 480px) and (min-width: 170px) {
+    .grid-container{
+        display: grid;
+        gap: 5vh;
+        margin: 0vh 4vh 0vh;
+    }
+    #indexIcon{
+        position: absolute;
+        right: 10%;
+        top: 3%;
+    }
+    #textA{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 6vh;
+        margin-left: 0px;
+        font-weight: bolder;
+        margin-top: 2vh;
+    }
+    #no{
+        display: none;
+    }
+    .disNone{
+        display: none;
+    }
+    .box{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(253, 11, 11);
+        box-sizing: border-box;
+        padding: 2%;
+        border: 2px solid rgb(230, 59, 59);
+        border-radius: 3%;
+        box-shadow: 1vw 1vw 1vw rgb(80, 79, 79);
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(27, 25, 25);
+    }
+    #forBlur{
+        filter: blur(6px);
+    }
+    #addList{
+        font-weight: bolder;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid red;
+        width: 70vw;
+        height: 70vw;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+        line-height: 10vw;
+        color: red;
+        font-size: larger;        
+        box-shadow: 1vh 1vh 1vh black;
+        box-sizing: border-box;
+    }
+    #A{
+        z-index: 5;
+        position: absolute;
+        margin: 10vw;
+        top: 40%;
+        background-color: white;
+    }
+    #but{
+        color: white;
+        background-color: red;
+        width: 25%;
+        font-size: xx-small;
+        border-radius: 25%;
+        padding: 2px;
+    }
+    input{
+        width: 50%;
+    }
+    #tripToParis{
+        display: inline-block;
+    }
+    #withIcon{
+        display: inline-block;
+    }
+    #bodyO{
+
+        border: none;
+    }
+    .parisHr{
+        display: none;
+        
+    }
+    #parisHead{
+        color: black
+        font-family: 'Nunito', sans-serif;
+        font-size: 30px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 3px;
+    }
+    #parisBoxM{
+        position: absolute;
+        text-align: center;
+        align-content: center;
+        height: 50%;
+        width: 60%;
+        border: rgb(253, 124, 124) 3px solid;
+        border-radius: 12px;
+        box-shadow: 6px 6px 6px rgb(112, 108, 108);
+        line-height: 40px;
+        font-size: 18px;
+    }
+    #tripToParis{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #withIcon{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #rightToArrow{
+        display: none;
+    }
+    #back{
+        color: red;
+        position: absolute;
+        left: 1%;
+        top: 2%;
+        margin-bottom: 30px;
+    }
+    .midHead{
+        padding-left: 15px;
+        color: rgb(248, 47, 47);
+        font-family: 'Nunito', sans-serif;
+        font-size: 50px;
+    }
+    #tripIcon{
+        position: relative;
+        top: 40px;
+        left: 40px;
+        
+    }
+    #tripHr{
+        display: none;
+        margin: 0px;
+        position: absolute;
+        left: 85px;
+    }
+    #mid{
+        margin-top: 15px;
+        height: 1000px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .material-icons{
+        color: red;
+        position: absolute;
+        padding-top: 25px;
+    }
+    #pT{
+        position: relative;
+        left: 50px;
+        font-weight: bold;
+    }
+    .threeHr{
+        padding-left: 20px;
+        position: relative;
+        left: 20px;
+        width: 70%;
+    }
+
+}
+@media only screen and (max-width: 170px) {
+    .grid-container{
+        display: grid;
+        gap: 5vh;
+        margin: 0vh 2vh 0vh;
+    }
+    #indexIcon{
+        position: absolute;
+        right: 50%;
+        top: 10%;
+    }
+    #textA{
+        font-family: 'Montserrat', sans-serif;
+        font-size: xx-small
+        margin-left: 0px;
+        font-weight: bolder;
+        margin-top: 2vh;
+    }
+    #no{
+        display: none;
+    }
+    .disNone{
+        display: none;
+    }
+    .box{
+        font-size: 3px;
+        line-height: 3px;
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(253, 11, 11);
+        box-sizing: border-box;
+        border: 2px solid rgb(230, 59, 59);
+        border-radius: 3%;
+        box-shadow: 1vw 1vw 1vw rgb(80, 79, 79);
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(27, 25, 25);
+    }
+    #forBlur{
+        filter: blur(6px);
+    }
+    #addList{
+        font-weight: bolder;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid red;
+        width: 70vw;
+        height: 120vw;
+        border-radius: 10px;
+        text-align: center;
+        background-color: white;
+        line-height: 20vw;
+        color: red;
+        font-size: larger;        
+        box-shadow: 1vh 1vh 1vh black;
+        box-sizing: border-box;
+    }
+    #A{
+        z-index: 5;
+        position: absolute;
+        margin: 1vh;
+        top: 15%;
+        background-color: white;
+    }
+    #but{
+        color: white;
+        background-color: red;
+        width: 30%;
+        font-size: xx-small;
+        border-radius: 25%;
+        padding: 2px;
+    }
+    input{
+        width: 50%;
+    }
+    #tripToParis{
+        display: inline-block;
+    }
+    #withIcon{
+        display: inline-block;
+    }
+    #bodyO{
+
+        border: none;
+    }
+    .parisHr{
+        display: none;
+        
+    }
+    #parisHead{
+        color: black
+        font-family: 'Nunito', sans-serif;
+        font-size: 50%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 3px;
+    }
+    #parisBoxM{
+        display: none;
+        position: absolute;
+        text-align: center;
+        align-content: center;
+        height: 70%;
+        width: 60%;
+        border: rgb(253, 124, 124) 3px solid;
+        border-radius: 12px;
+        box-shadow: 6px 6px 6px rgb(112, 108, 108);
+        line-height: 80px;
+        font-size: 18px;
+        box-sizing: border-box;
+    }
+    #tripToParis{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #withIcon{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    #rightToArrow{
+        display: none;
+    }
+    #back{
+        color: red;
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        margin-bottom: 30px;
+    }
+    .midHead{
+        padding-left: 15px;
+        color: rgb(248, 47, 47);
+        font-family: 'Nunito', sans-serif;
+        font-size: 50px;
+    }
+    #tripIcon{
+        position: relative;
+        top: 40px;
+        left: 80px;
+        
+    }
+    #tripHr{
+        margin: 0px;
+        position: absolute;
+        left: 85px;
+    }
+    #mid{
+        margin-top: 15px;
+        height: 1000px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .material-icons{
+        color: red;
+        position: absolute;
+        padding-top: 25px;
+    }
+    #pT{
+        position: relative;
+        left: 50px;
+    }
+    .threeHr{
+        display: none;
+}
+

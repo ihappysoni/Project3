@@ -4,6 +4,10 @@ body{
 }
 @media only screen and (min-width: 992px)
  {
+     #tripRed{
+        text-decoration: none;
+     }
+         
     .material-icons{
         color: red;
         position: absolute;
@@ -199,6 +203,9 @@ body{
 
 }
 @media only screen and (min-width: 768px) and (max-width:992px) {
+    #tripRed{
+        text-decoration: none;
+     }
     #textA{
         font-family: 'Montserrat', sans-serif;
         font-size: 6vh;
@@ -381,6 +388,9 @@ body{
     }
 }
 @media only screen and (min-width: 480px) and (max-width:767px) {
+    #tripRed{
+        text-decoration: none;
+     }
     #textA{
         font-family: 'Montserrat', sans-serif;
         font-size: 6vh;
@@ -556,6 +566,9 @@ body{
 
 }
 @media only screen and (max-width: 480px) and (min-width: 170px) {
+    #tripRed{
+        text-decoration: none;
+     }
     .grid-container{
         display: grid;
         gap: 5vh;
@@ -727,6 +740,9 @@ body{
 
 }
 @media only screen and (max-width: 170px) {
+    #tripRed{
+        text-decoration: none;
+     }
     .grid-container{
         display: grid;
         gap: 5vh;
